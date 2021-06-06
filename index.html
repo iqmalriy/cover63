@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <title>Cover Laporan Generator</title>
+</head>
+<body>
+    <div class="container mx-auto my-auto w-100">
+        <form id="form-input" class="col col-md-8 offset-md-2 py-5 px-5 rounded-3">
+            <div class="identitas">
+                <div class="row identitas0">
+                    <div class="form-group mb-3 col-5">
+                        <label class="form-label" for="">Nama Lengkap</label>
+                        <input name="nama0" type="text" class="form-control" id="" placeholder="Mas Dwi Ganteng">
+                    </div>
+                    <div class="form-group mb-3 col-5">
+                        <label class="form-label" for="">NIS</label>
+                        <input name="nis0" type="text" class="form-control" id="" placeholder="17.63.08678">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label class="form-label" for="">Institusi Prakerin</label>
+                <input name="institusi" type="text" class="form-control" id="" placeholder="PT. Pencari Cinta Sejati">
+            </div>
+            <div class="form-group mb-3">
+                <div class="row">
+                    <input type="button" id="tambah0" class="btn btn-light button-tambah col-3" value="+ Orang">
+                    <button class="btn btn-primary col-8 offset-1">Generate Cover</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <script src="./image-data-uri.js"></script>
+    <script src="./index.js"></script>
+    
+
+    <script src="./helper.js"></script>
+</body>
+</html>
